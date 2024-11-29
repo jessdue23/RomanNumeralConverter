@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Roman.MainPage">
+
+    <StackLayout Padding="20,20">
+        <Label Text="Roman Numeral"></Label>
+        <Entry x:Name="txtRomanNumeral"></Entry>
+        <Label Text="Number"></Label>
+        <Entry x:Name="txtNumber"></Entry>
+        
+        <Button Text="Convert" Clicked="Convert_OnClicked" Margin="10"></Button>
+        <Button Text="Clear" Clicked="Clear_OnClicked" Margin="10 "></Button>
+    </StackLayout>
+
+</ContentPage>
